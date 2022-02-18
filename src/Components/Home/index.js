@@ -1,15 +1,14 @@
 import React, {PureComponent} from 'react';
-import Count from "./Components/Count";
 
-class App extends PureComponent {
+class Home extends PureComponent {
     render() {
         return (
             <div>
-                <Count />
+                我是home
             </div>
         );
     }
 }
 
 
-export default App;
+export default Home;
